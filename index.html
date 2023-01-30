@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Aim Trainer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="main()">
+
+    <div class="game">
+      <h1 style="text-align: center; margin:0;">AIM TRAINER</h1>
+      <h3 id="affichageScore" style="text-align: center; margin:0;">Score : </h3>
+      <p id="affichageChrono">01:00</p>
+      <div id="view"></div>
+    
+      <div>
+        <label>Rapide</label>
+        <input onChange="updateGameSpeed()" type="range" id="vitesse" min="400" max="1500" step="10" value="800">
+        <label>Lent</label>
+      </div>
+      <label id="affichagGameSpeed"></label>
+    </div>
+
+
+
+
+
+  <script src="https://pixijs.download/release/pixi.js"></script>
+  <script src="js/chrono.js"></script>
+  <script src="js/view.js"></script>
+  <script src="js/mouse.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

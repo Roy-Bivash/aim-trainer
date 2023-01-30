@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html, body {
+  background-color:  #ecfaf2 ;
+  padding: 0;
+  margin: 0;
+  transition: 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.view{
+  
+}
+
+.game{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.restarBtn{
+    text-align:center;
+}
